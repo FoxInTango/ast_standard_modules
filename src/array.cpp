@@ -21,19 +21,16 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  */
+
+#include "module.h"
+
 #include <libast/libast.h>
 #include <libmodule/libmodule.h>
 #include <libmodel/libmodel.h>
 #include <libcpp/libcpp.h>
 using namespace foxintango;
 
-class ASTModule_Array {
-public:
-    Array<ASTElement*> array;
-public:
-    ASTModule_Array();
-    ~ASTModule_Array();
-};
+AST_SYMBOL_EXPORT(ASTModule_Array);
 
 ASTModule_Array::ASTModule_Array(){
     
