@@ -36,11 +36,10 @@ public:
 };
 
 ASTModule_Array::ASTModule_Array(){
-    this->array = new Array<ASTElement*>();
+    
 }
 
 ASTModule_Array::~ASTModule_Array(){
-    if(this->array) delete this->array;
 }
 
 
