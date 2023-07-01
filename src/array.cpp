@@ -35,15 +35,6 @@ public:
     ~ASTModule_Array();
 };
 
-class ASTModule_Array {
-public:
-    Array<ASTElement*> array;
-public:
-    ASTModule_Array();
-    ~ASTModule_Array();
-};
-
-
 ASTModule_Array::ASTModule_Array(){
     this->array = new Array<ASTElement*>();
 }
