@@ -1,6 +1,7 @@
 #include <libast/libast.h>
 #include <libmodule/libmodule.h>
-AST_SYMBOL(map);
+#include <libcpp/libcpp.h>
+AST_SYMBOL(ast_map);
 class foxintangoAPI ASTModuleInterface :public ModuleInterface {
 public:
     ASTModuleInterface();

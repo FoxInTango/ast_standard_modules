@@ -1,6 +1,4 @@
 #include "module.h"
-#include <libast/libast.h>
-#include <libcpp/libcpp.h>
 using namespace foxintango;
 
 Array<ASTElement*> ast_symbols;
@@ -12,7 +10,7 @@ bool ASTModuleInterface::containVariable(const char* name) {
 }
 
 void* ASTModuleInterface::exportVariable(const char* name) {
-    AST_EXPORT(map);
+    AST_EXPORT(ast_map);
     return 0;
 }
 
