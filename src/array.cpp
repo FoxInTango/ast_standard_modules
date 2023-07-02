@@ -29,9 +29,6 @@
 #include <libmodel/libmodel.h>
 #include <libcpp/libcpp.h>
 using namespace foxintango;
-
-AST_SYMBOL_EXPORT(ASTModule_Array);
-
 ASTModule_Array::ASTModule_Array(){
     
 }

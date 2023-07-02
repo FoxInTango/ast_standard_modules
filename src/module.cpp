@@ -1,6 +1,4 @@
 #include "module.h"
-using namespace foxintango;
-
 Array<ASTElement*> ast_symbols;
 
 ASTModuleInterface::ASTModuleInterface(){}
