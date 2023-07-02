@@ -29,13 +29,6 @@
 #include <libmodel/libmodel.h>
 #include <libcpp/libcpp.h>
 using namespace foxintango;
-ASTModule_Array::ASTModule_Array(){
-    
-}
-
-ASTModule_Array::~ASTModule_Array(){
-}
-
 
 
 

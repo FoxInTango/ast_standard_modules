@@ -21,3 +21,13 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  */
+ #include "module.h"
+
+ ast_map::ast_map(){}
+ ast_map::~ast_map(){}
+
+ ast_map_interface::ast_map_interface(){}
+ ast_map_interface::~ast_map_interface(){}
+ ast_map* ast_map_interface::create(){
+     return 0;
+ }
