@@ -1,5 +1,5 @@
 #include "module.h"
-Array<ASTElement*> ast_symbols;
+Array<ASTElementInterface*> ast_symbols;
 
 ASTModuleInterface::ASTModuleInterface(){}
 ASTModuleInterface::~ASTModuleInterface(){}
