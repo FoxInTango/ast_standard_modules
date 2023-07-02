@@ -25,9 +25,3 @@
 
  ast_map::ast_map(){}
  ast_map::~ast_map(){}
-
- ast_map_interface::ast_map_interface(){}
- ast_map_interface::~ast_map_interface(){}
- ast_map* ast_map_interface::create(){
-     return 0;
- }
