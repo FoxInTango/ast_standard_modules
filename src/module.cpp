@@ -9,7 +9,7 @@ bool ASTModuleInterface::containVariable(const char* name) {
 
 void* ASTModuleInterface::exportVariable(const char* name) {
     AST_EXPORT(ast_map);
-    return 0;
+    return &ast_symbols;
 }
 
 ASTModuleInterface foxintangoAPI MODULE_INTERFACE_INSTANCE;
