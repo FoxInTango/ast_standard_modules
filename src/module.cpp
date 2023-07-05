@@ -1,5 +1,5 @@
 #include "module.h"
-Array<ASTElementInterface*> ast_symbols;
+Array<ASTElementInterface*> AST_MODULE_SYMBOLS;
 
 ASTModuleInterface::ASTModuleInterface(){}
 ASTModuleInterface::~ASTModuleInterface(){}
@@ -9,7 +9,7 @@ bool ASTModuleInterface::containVariable(const char* name) {
 
 void* ASTModuleInterface::exportVariable(const char* name) {
     AST_EXPORT(ast_map);
-    return &ast_symbols;
+    return &AST_MODULE_SYMBOLS;
 }
 
 ASTModuleInterface foxintangoAPI MODULE_INTERFACE_INSTANCE;
