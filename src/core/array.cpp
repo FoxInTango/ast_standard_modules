@@ -21,7 +21,14 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  */
- #include "module.h"
 
- ast_map::ast_map(){}
- ast_map::~ast_map(){}
+#include "../module.h"
+
+#include <libast/libast.h>
+#include <libmodule/libmodule.h>
+#include <libmodel/libmodel.h>
+#include <libcpp/libcpp.h>
+using namespace foxintango;
+
+
+
