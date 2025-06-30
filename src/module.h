@@ -17,3 +17,7 @@ public:
     virtual bool containVariable(const char* name);
     virtual void* exportVariable(const char* name);
 };
+
+#ifdef(STATIC_LINKED_MODULE)
+    extern ASTModuleInterface foxintangoAPI MODULE_INTERFACE_INSTANCE;
+#endif
