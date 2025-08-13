@@ -1,5 +1,7 @@
 #include "module.h"
-Array<ASTElementInterface*> AST_MODULE_SYMBOLS;
+#include <map>
+#include <vector>
+std::vector<ASTElementInterface*> AST_MODULE_SYMBOLS;
 
 ASTModuleInterface::ASTModuleInterface(){}
 ASTModuleInterface::~ASTModuleInterface(){}
